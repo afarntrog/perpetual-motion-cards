@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Perpetual Motion</string>
+    <string name="new_game">New Game</string>
+    <string name="undo">Undo</string>
+    <string name="about">About</string>
+    <string name="about_message">Original Java CLI version by Professor M Plonczak.
+        \n\nAdditions and Changes and Android version by Professor S Abrahamson.
+        \n\nThanks to Touro College MCO 451/521 students for their ideas and suggestions.
+        \n\nHave fun!!</string>
+    <string name="cards_in_stack">"Cards In Stack: "</string>
+    <string name="cards_to_discard">"Cards to Discard: "</string>
+    <string name="in_deck">"Cards Still in Deck: "</string>
+    <string name="discard">Discard Card(s)</string>
+    <string name="deal">Deal One Card on Top of Each Pile</string>
+    <string name="game_over">Game Over</string>
+    <string name="welcome_new_game">Welcome to a new Game!</string>
+    <string name="welcome_restore_game">Welcome back!</string>
+    <string name="you_have_cleared_the_board">You have successfully cleared the board!</string>
+    <string name="no_more_turns_remain">No more valid turns remain.</string>
+    <string name="new_game_question">Start New Game?</string>
+    <string name="turn_error_discard_other">Please select either one or two cards at a time to discard.</string>
+    <string name="turn_error_discard_one">To discard one card, a higher-valued card of the same suit must also be visible.</string>
+    <string name="turn_error_discard_two">To discard two cards, both cards must have the same numeric value.</string>
+    <string name="title_no_cards_remain">No cards Remain</string>
+    <string name="body_all_cards_dealt_to_stacks">All cards have been dealt to the stacks.</string>
+    <string name="key_use_auto_save">AUTO_SAVE</string>
+    <string name="title_use_auto_save">Use Auto-Save</string>
+    <string name="key_show_turn_specific_error_messages">SHOW_ERRORS</string>
+    <string name="title_show_turn_specific_error_messages">Show Card Discard Errors</string>
+    <string name="error_cannot_discard_from_empty_pile">Cannot discard from an empty pile/stack</string>
+    <string name="msg_game_already_ended">Game has already ended</string>
+    <string name="action_settings">Settings</string>
+</resources>

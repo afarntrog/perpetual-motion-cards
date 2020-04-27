@@ -1,0 +1,2 @@
+include ':app', ':pm_game'
+rootProject.name='Perpetual Motion Card Game'

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:gravity="center"
+    app:cardBackgroundColor="@color/colorCardBackground"
+    app:cardCornerRadius="0dp"
+    tools:showIn="@layout/content_main">
+
+    <LinearLayout style="@style/buttonBarStyle">
+        <Button style="@style/borderlessButtonStyle"
+            android:layout_weight=".35"
+            android:onClick="turn_action_discard"
+            android:text="@string/discard"
+        />
+        <Button style="@style/borderlessButtonStyle"
+            android:layout_weight=".65"
+            android:onClick="turn_action_deal"
+            android:text="@string/deal"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
